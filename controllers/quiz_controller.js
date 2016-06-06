@@ -297,9 +297,3 @@ function uploadResourceToCloudinary(req) {
         );
     })
 }
-
-
-exports.autor = function(req, res, next) {
-
-  res.render('quizzes/autor', {});
-};
